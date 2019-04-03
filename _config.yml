@@ -2,7 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               9m1i9n1
+title:               솔개
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
@@ -13,13 +13,12 @@ url:                 https://9m1i9n1.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline:             게을러서 성실해지고픈 개발자
+tagline:             배워가는 솔개
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
   게으르기 때문에 게발자.
-  악기를 다루며 행복해하고, 디자인과 개발을 좋아한다.
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
