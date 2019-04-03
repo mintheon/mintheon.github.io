@@ -27,7 +27,7 @@ author:
 
 # Fallback image and color
 image:               ''
-color:               '#000000'
+color:               '#595959'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 font_heading:        "'Lato', 'Sans-serif'"
