@@ -6,5 +6,5 @@ menu: true
 submenu: false
 order: 3
 description: >
-  평소 생각과 쓰고싶은 글을 씁니다.
+  내가 쓰고 싶은 글
 ---
