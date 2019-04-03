@@ -18,7 +18,7 @@ tagline:             배워가는 솔개
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  게으르기 때문에 게발자.
+  [ 게으르기 때문에 게발자 ]
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
@@ -26,8 +26,8 @@ author:
   email:             9m1i9n1@gmail.com
 
 # Fallback image and color
-image:               /assets/img/nap.jpg
-color:               '#4f86aa'
+image:               #/assets/img/nap.jpg
+color:               '#003458'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 font_heading:        "'Lato', 'Sans-serif'"
