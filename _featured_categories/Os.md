@@ -1,7 +1,7 @@
 ---
 layout: list
 title: OS
-slug: Os
+slug: os
 menu: true
 submenu: true
 order: 7

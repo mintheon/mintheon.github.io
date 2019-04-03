@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: OS
-slug: OS
-category: devlog
+title: Ubuntu
+slug: ubuntu
+category: Os
 menu: false
 order: 2
 ---

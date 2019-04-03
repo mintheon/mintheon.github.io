@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: PS
-slug: PS
-category: devlog
+title: Ps
+slug: ps
+category: Algo
 menu: false
 order: 1
 header-img: "/img/js-logo.png"
