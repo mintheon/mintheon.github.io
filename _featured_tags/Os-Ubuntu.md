@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Data
-slug: data
+title: OS
+slug: OS
 category: devlog
 menu: false
 order: 2
