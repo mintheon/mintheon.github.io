@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[2741] N 찍기 (시간 초과 날 경우)"
+title:  ""
 subtitle:   ""
 categories: devlog
 tags: ps dp
@@ -11,7 +11,7 @@ tags: ps dp
 - - -
 
 
-자연수 N이 주어졌을 때, 1부터 N까지 한 줄에 하나씩 출력하는 프로그램을 작성하시오.
+
 
 
 - - -
@@ -23,7 +23,7 @@ tags: ps dp
 - - -
 
 
-첫째 줄에 100,000보다 작거나 같은 자연수 N이 주어진다.
+
 
 
 - - -
@@ -34,7 +34,7 @@ tags: ps dp
 - - -
 
 
-첫째 줄부터 N번째 줄 까지 차례대로 출력한다.
+
 
 
 - - -
@@ -43,55 +43,39 @@ tags: ps dp
 ### 입력 1
 
 ```
-5
+
 ```
 
 ### 출력 1
 
 ```
-1
-2
-3
-4
-5
+
 ```
 
 * * *
-  
-  
-  
+
+
+
+
+
+
+
 
 # 1. 문제 설명
 
 - - -
 
 
-- 정~말 쉬운 문제이다.
-하지만 이것도 코드를 제출하니 **"시간 초과"** 에러가 났다. 하.. 도대체 뭘까.. 싶어서 알아봤다.
+- 
 
-- **결과적으로 C를 사용하면 상관이 없지만 C++을 사용할 경우에는 오류가 날 수 있더라.  
-`Cpp`의 `cin` 과 `cout` 이 `C`의 `scanf` 와 `printf` 에 비해서 굉장히 속도가 느리다고 한다.**
+- 
 
-- `#include<iostream>` 이 C++ 환경에서도 C 함수를 쓸 수 있도록  `#include<cstdio>` 헤더를 포함시키면서 굉장히 느려져 이런 현상이 생긴다고 한다.
+- 
 
 ## 1-1. 잘못된 코드
 
 ```cpp
-#include <iostream>
- 
-using namespace std;
- 
-int main() {
-    int n;
- 
-    cin >> n;
- 
-    for (int i = 0; i < n; i++) {
-        cout << i + 1 << endl;
-    }
- 
-    return 0;
-}
+
 ```
   
   
@@ -99,27 +83,24 @@ int main() {
 
 ## 1-2. 해결 방법
 ```cpp
-sync_with_stdio(false);
-cin.tie(null);<br>
+
 ```
 
-- 제일 좋은 방식은 시간 초과가 나는 경우 `cin` 이나 `cout` 대신 `scanf` 와 `printf`를 쓰는 것이다.
+- 
 
 
-- **하지만 굳이 사용하고 싶다면 소스 코드 위쪽에 요놈들을 적자.**  
-++**대신 이경우 `cstdio`를 싱크시키지 않기때문에 C에서의 함수는 사용할 수 없다.**++
+- 
 
 
-> 위 코드 사용시 주의사항
-> 1. 'scanf', 'printf'와 섞어서 사용하지 말 것
-> 2. 싱글 쓰레드 환경에서만 사용할 것 (PS용으론 상관없지만, 실무에서는 쓰지 말 것)
 
-
-**그냥 웬만해서 시간초과가 난다면 'printf', 'scanf' 등의 C 표준 입출력 함수들을 사용하자.. ㅠㅠ**
 - - -
-  
-  
-  
+
+
+
+
+
+
+
 
 # 2. 소스 코드
 
@@ -128,20 +109,6 @@ cin.tie(null);<br>
 
 
 ```cpp
-#include <iostream>
- 
-using namespace std;
- 
-int main() {
-    int n;
-     
-    scanf("%d", &n);
- 
-    for (int i = 0; i < n; i++) {
-        printf("%d\n", i + 1);
-    }
- 
-    return 0;
-}
+
 
 ```
