@@ -285,4 +285,5 @@ SpringBoot를 이용하여 React와 통신하는 예제를 실습하였다.
     export default App;
     ```
 8. 마지막으로 백단에서 `ctrl + F5`로 서버를 실행해주고, 프론트 단에서 `npm start`를 적어 실행하여 값이 잘 나오는 것을 볼 수 있다.
+  ![image](https://user-images.githubusercontent.com/23326757/64005969-51182280-cb4c-11e9-90d5-043c610c4f13.png)
 ---
