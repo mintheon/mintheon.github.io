@@ -19,5 +19,5 @@ setting.json(ctrl+, 이후 우상단) 수정
 **참고용 sync token**
 
 ```
-setting sync token : 3173112cc4a11d995d73cb72944f36b31c7f6413
+setting sync token : 362b89c9b8f90253745ff0d84e2e1e0170539ead
 ```
