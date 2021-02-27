@@ -13,7 +13,7 @@ url:                 https://9m1i9n1.github.io
 baseurl:             ""
 
 # A very short description of your page
-tagline:             배워가는 솔개
+tagline:             👨🏻‍💻while(learning = Infinity);
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
