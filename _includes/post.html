@@ -39,6 +39,15 @@
 {% endif %}
 
 <br/>
+  <div style="text-align: center;">
+    <a href="https://hits.seeyoufarm.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
+      target="_blank">
+      <img
+        src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url={{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}&count_bg=%23CBCBCB&title_bg=%23555555&icon=messenger.svg&icon_color=%23E7E7E7&title=+view&edge_flat=false" />
+    </a>
+  </div>
+  <br/>
+
       {{ post.content }}
 
     </div>
