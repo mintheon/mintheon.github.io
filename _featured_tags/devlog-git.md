@@ -1,9 +1,9 @@
 ---
 layout: tag-blog
-title: Issue
-slug: issue
+title: Git
+slug: git
 category: devlog
 menu: false
-order: 800
+order: 50
 # header-img: "/img/js-logo.png"
 ---

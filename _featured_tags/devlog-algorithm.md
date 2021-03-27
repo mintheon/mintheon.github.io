@@ -1,9 +1,9 @@
 ---
 layout: tag-blog
-title: Issue
-slug: issue
+title: Algorithm
+slug: algorithm
 category: devlog
 menu: false
-order: 800
+order: 10
 # header-img: "/img/js-logo.png"
 ---

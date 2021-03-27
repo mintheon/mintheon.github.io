@@ -1,9 +1,9 @@
 ---
 layout: tag-blog
-title: Issue
-slug: issue
+title: Database
+slug: database
 category: devlog
 menu: false
-order: 800
+order: 40
 # header-img: "/img/js-logo.png"
 ---
