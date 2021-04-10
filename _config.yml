@@ -2,11 +2,11 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               민테온의 한발짝 두발짝
+title:               민테온Zone
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 https://mintheon.github.io
+url:                 https://mintheon.com
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
@@ -23,7 +23,7 @@ description:         >
 # This should be the same author as first entry in `_data/authors.yml`
 author:
   name:              mintheon
-  email:             mintheon@gmail.com
+  email:             mintheon@mintheon.com
 
 # Fallback image and color
 image:               ''
