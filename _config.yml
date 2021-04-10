@@ -2,11 +2,11 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               솔개
+title:               MINTHEON의 한발짝 두발짝
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 https://9m1i9n1.github.io
+url:                 https://mintheon.github.io
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
@@ -47,10 +47,10 @@ google_fonts:        Lato
 google_analytics:    G-W0CM01QT33
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus_shortname:    9m1i9n1
+disqus_shortname:    mintheon
 
 # This text will appear in the footer of every page. Markdown enabled.
-copyright:           '&copy; 2019. by 9m1i9n1'
+copyright:           '&copy; 2019. by mintheon'
 
 # Format of the permalinks
 permalink:           pretty
