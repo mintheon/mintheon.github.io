@@ -2,8 +2,8 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
 9m1i9n1:
-  name:              9m1i9n1
-  email:             9m1i9n1@gmail.com
+  name:              mintheon
+  email:             mintheon@mintheon.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
@@ -46,7 +46,7 @@
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    github:          9m1i9n1
+    github:          mintheon
     # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
@@ -57,8 +57,8 @@
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
-    email:           mailto:9m1i9n1@gmail.com
-    rss:             https://9m1i9n1.github.io/feed.xml
+    email:           mailto:mintheon@mintheon.com
+    rss:             https://mintheon.com/feed.xml
 
 # Another author
 mdo:
