@@ -2,7 +2,7 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               MINTHEON의 한발짝 두발짝
+title:               민테온의 한발짝 두발짝
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
@@ -22,8 +22,8 @@ description:         >
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
-  name:              9m1i9n1
-  email:             9m1i9n1@gmail.com
+  name:              mintheon
+  email:             mintheon@gmail.com
 
 # Fallback image and color
 image:               ''
