@@ -1,3 +1,12 @@
+---
+layout: post
+title:  "2021-04-20-[Mac]오른쪽 커맨드 키 한영키로 변경 (BigSur)"
+subtitle:   ""
+categories: devlog
+tags: mac, etc
+---
+
+
 ## Mac 환경에서 오른쪽 Command 키를 한/영키로 매핑하는 방법 (BigSur)
 
 BigSur에서는 Karabiner가 작동하고 있지 않아 애플에서 자체적으로 지원하고 있는 hidutil을 이용하여 세팅한다.
@@ -51,7 +60,6 @@ BigSur에서는 Karabiner가 작동하고 있지 않아 애플에서 자체적�
 ### 해당 커맨드 재 복구시
 
 1. 해당 코드를 터미널에 입력한다.
-
 ```shell
 sudo launchctl remove userkeymapping
 ```
