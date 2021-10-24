@@ -3,12 +3,14 @@ layout: post
 title: "URI와 URL, URN의 특징과 차이점"
 subtitle: "cs"
 date: 2021-10-24 20:38:00
-categories: devlog, cs
-tags: 글또
+categories: devlog
+tags: 글또 cs
 ---
 ![CS Banner](https://tva1.sinaimg.cn/large/008i3skNgy1gvqn9h39vcj615o0g1gol02.jpg)
 
 예전에 다른 개발자와 Request 얘기를 나누다가 `URL` 이라고 얘기했는데.. 말을 마치고 나니 **_'엥 이게 `URL`이 맞나? `URI`인가?'_** 라고 헷갈린 적이 있었다.
+
+![img](https://tva1.sinaimg.cn/large/008i3skNgy1gvqonmmqzoj60dw0l0dhe02.jpg)
 
 그리하여 정확한 차이를 정리해보려고 한다. 추가적으로 찾다보니 알게된 `URN`도 함께 알아본다.
 
@@ -83,11 +85,15 @@ tags: 글또
 
 <br/>
 
-AWS를 사용해봤다면 자원의 위치를 이런 **_`URN`을 확장한 `ARN`_**으로 제공한다.
+## AWS에서 받는 주소는 도대체 무엇일까?
+
+AWS를 사용해봤다면 AWS 자원의 위치를 이런 **_`URN`을 확장한 `ARN`_**으로 제공한다는 것을 알 것이다.
 
 - arn:aws:kms:ap-northeast-2:888869365995:key/679f76c9-a93d-4144-8163-9319e9d9cd18
 
-이런 형태의 주소를 받은 적이 있을것이다. 처음에 이게 도대체 이게 무슨 주소지 했는데 ARN을 사용한 주소라고 한다!
+![img](https://tva1.sinaimg.cn/large/008i3skNgy1gvqop486adj60gk0bnt9z02.jpg)
+
+처음에 이게 도대체 이게 무슨 주소지 했는데 ARN을 사용한 주소라고 한다!
 
 해석하자면 **arn문법**으로 이루어졌으며 **aws의 kms 서비스**이고, **p-northeast-2(서울) 지역**의 **888869365995 사용자**의 **key/679f76c9-a93d-4144-8163-9319e9d9cd18 리소스**를 말하는 것이다.
 
