@@ -1,21 +1,21 @@
 ---
 layout: post
-title: 'String과 new String의 차이 & StringPool이란?'
+title: 'String과 new String의 차이, 그리고 StringPool이란?'
 subtitle: 'java'
 date: 2021-12-05 19:26:00
 categories: devlog
 tags: java 글또
 ---
 
-![image-20210815114036054](https://tva1.sinaimg.cn/large/008i3skNgy1gx328n8ulgj31e80l4wfz.jpg)
+![image-20210815114036054](https://tva1.sinaimg.cn/large/008i3skNgy1gxiibhkaahj31e80l4wfz.jpg)
 
-예전에 CS 개념 모음집을 보다가 **' `String a = "hello";` 와 `String a = new String("hello");` 의 차이점은 무엇일까요?'** 라는 얘기에 _객체를 새로 만드냐 안만드냐의 차이_ 정도로 숙지하고 넘어갔던 기억이 있다.
+예전에 CS 개념 모음집을 보다가 **'`String a = "hello";` 와 `String a = new String("hello");` 의 차이점은 무엇일까요?'** 라는 얘기에 _객체를 새로 만드냐 안만드냐의 차이_ 정도로 숙지하고 넘어갔던 기억이 있다.
 
 <br/>
 
 솔직히 해당 질문을 보기 전까진 딱히 생각해본적이 없던 문제였다.
 
-![img](https://tva1.sinaimg.cn/large/008i3skNgy1gx3282ff0wj30dw0fjwfr.jpg)
+![img](https://tva1.sinaimg.cn/large/008i3skNgy1gxiibi06paj30dw0fjwfr.jpg)
 
 요새 cs에 부족함을 많이 느껴 기본기를 다시금 다져보자는 차원에서 기본서들을 보고있는데 해당 부분이 나와 정리해보고자 한다.
 
@@ -32,7 +32,7 @@ String str = "문자열";
 str = "문자열2";
 ```
 
-![img](https://tva1.sinaimg.cn/large/008i3skNgy1gx32qjgasxj30oj0ds75a.jpg)
+![img](https://tva1.sinaimg.cn/large/008i3skNgy1gxiibf1593j30oj0ds0tq.jpg)
 
 위 코드는 그림과 같이 처리된다.
 
@@ -65,9 +65,9 @@ String s4 = new String("Hello");
 
 **가장 큰 차이점은 객체가 생성되는 영역**이다. 위 코드는 아래와 같이 처리된다.
 
-![image-20211205191049073](https://tva1.sinaimg.cn/large/008i3skNgy1gx34clo1rgj31i50qkgom.jpg)
+![image-20211205191049073](https://tva1.sinaimg.cn/large/008i3skNgy1gxiibfs4fgj31i50qkgom.jpg)
 
-- String literal로 생성한 객체는 `String Pool` 에 들어간다.
+- String literal로 생성한 객체는 `String Pool` 에 들어간다.
 - String lieteral로 생성한 객체의 값이 이미 `String Pool` 에 존재한다면 해당 객체는 `String Pool`의 레퍼런스를 참조한다.
 - `new` 연산자로 생성한 String 객체는 같은 값이 `String Pool` 에 이미 존재하더라도 `Heap영역` 내의 별도 객체를 가리킨다.
 
@@ -77,7 +77,7 @@ String s4 = new String("Hello");
 
 위의 그림에선 Heap 내에 존재하는 것으로 되어있으나 이부분은 **`Java7` 이후 버전 기준**이다.
 
-![img](https://tva1.sinaimg.cn/large/008i3skNgy1gx34kdhvzaj30pk06aq3a.jpg)
+![img](https://tva1.sinaimg.cn/large/008i3skNgy1gxiibgc1cnj30pk06aq3a.jpg)
 
 이전 버전의 경우 `JVM Heap 내부의 PermGen` 영역에 있었는데, 해당 영역의 경우 객체가 가득 찬 상태에서 `Runtime(실행중)` 환경에서는 메모리를 동적으로 늘리지 못해 영역이 가득 차면 `OutOfMemory` 에러가 발생했다.
 
@@ -89,11 +89,13 @@ String s4 = new String("Hello");
 
 # 결론
 
-![img](https://tva1.sinaimg.cn/large/008i3skNgy1gx34onq54nj30gy0dw757.jpg)
+![img](https://tva1.sinaimg.cn/large/008i3skNgy1gxiibh5y8gj30gy0dw757.jpg)
 
 String 객체를 **`new 연산자`로 생성하면 같은 값이어도 매번 새로운 객체가 생성**되게 한다. 그리하여 **String이 갖는 불변성이라는 장점을 누리지 못하게된다.**
 
-`메모리를 효율적으로 사용하기 위한 기능인 만큼, String은 항상 리터럴(큰따옴표) 방식으로 생성하는 것이 좋다!`
+```
+메모리를 효율적으로 사용하기 위한 기능인 만큼, String은 항상 리터럴(큰따옴표) 방식으로 생성하는 것이 좋다!
+```
 
 <br/>
 
