@@ -3,7 +3,7 @@ layout: post
 title: '문자열 알고리즘 (Navie, Rabin-Karp, KMP)'
 subtitle: '문자열 알고리즘'
 date: 2021-12-19 03:15:00
-categories: algorithm
+categories: devlog
 tags: algorithm cs 글또
 ---
 
