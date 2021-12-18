@@ -1,13 +1,13 @@
 ---
 layout: post
 title: '문자열 알고리즘 (Navie, Rabin-Karp, KMP)'
-subtitle: ''
-date: 2021-12-19 03:15:00
+subtitle: 'algorithm'
+date: 2021-12-19 04:15:00
 categories: devlog
 tags: algorithm cs 글또
 ---
 
-![image-20210815114036054](https://tva1.sinaimg.cn/large/008i3skNgy1gxiibhkaahj31e80l4wfz.jpg)
+![New Algorithm Developed to Better Utilise the Power of Solar Panels | The  Renewable Energy Hub](https://tva1.sinaimg.cn/large/008i3skNgy1gxilmsmngyj31hc0f9n5t.jpg)
 
 # 문자열 검색이란
 
