@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "equals() & hashCode()를 언제 정의할까"
-subtitle: "java"
+title: 'equals()와 hashCode()를 언제 정의할까'
+subtitle: 'java'
 date: 2021-09-26 19:20:00
 categories: devlog
 tags: java 글또
@@ -99,7 +99,7 @@ public class Item {
 
 ![image-20210926220319095](https://tva1.sinaimg.cn/large/008i3skNgy1guubyjmsq8j60lc08wweu02.jpg)
 
-![개비스콘](https://tva1.sinaimg.cn/large/008i3skNgy1guubzhsi5qj60du0afwfb02.jpg) 
+![개비스콘](https://tva1.sinaimg.cn/large/008i3skNgy1guubzhsi5qj60du0afwfb02.jpg)
 
 **`name.equals(item.name) && price == item.price` 를 통해 객체는 서로의 주소값을 비교하는 것이 아니고 item과 price를 비교하게 된다.**
 
@@ -123,7 +123,7 @@ public boolean equals(Object obj) {
 
 - _논리적으로 동일함을 확인해야 하는데 기존 `equals()`가 재정의 되어있지 않을 때_
 
-   **두 객체를 `equals()`로 비교한다는 것은 객체가 똑같은지가 아니라 값이 같은지 알고싶은 것이기 때문이다.**
+  **두 객체를 `equals()`로 비교한다는 것은 객체가 똑같은지가 아니라 값이 같은지 알고싶은 것이기 때문이다.**
 
 <br/>
 
@@ -131,9 +131,9 @@ public boolean equals(Object obj) {
 
 - _인스턴스가 둘 이상 만들어지지 않음을 보장하는 클래스_
 
-   예를 들면 `Enum`과 같은 클래스이다.
+  예를 들면 `Enum`과 같은 클래스이다.
 
-   해당 클래스에서는 논리적으로 같은 클래스가 2개이상 만들어 지지 않기 때문에, 논리적 동일함과 객체 식별이 사실상 똑같은 의미가 된다.
+  해당 클래스에서는 논리적으로 같은 클래스가 2개이상 만들어 지지 않기 때문에, 논리적 동일함과 객체 식별이 사실상 똑같은 의미가 된다.
 
 <br/>
 
@@ -183,7 +183,7 @@ public boolean equals(Object obj) {
 
 ## hashCode를 재정의 하지 않았을 경우 생기는 문제
 
-   - 서로 같은 객체가 다른 해시값을 갖게 될 수 있다
+- 서로 같은 객체가 다른 해시값을 갖게 될 수 있다
 
 **특히나 HashMap의 key값으로 객체를 사용할 경우 문제가 발생한다.**
 
@@ -256,8 +256,9 @@ public int hashCode() {
 <br/>
 
 - **HashTable에 put 메서드로 객체를 추가하는 경우**
-   1. 값이 같은 객체가 이미 있다면(_equals()가 true_) 기존 객체를 덮어쓴다.
-   2. 값이 같은 객체가 없다면(_equals()가 false_) 해당 entry를 LinkedList에 추가한다.
+
+  1.  값이 같은 객체가 이미 있다면(_equals()가 true_) 기존 객체를 덮어쓴다.
+  2.  값이 같은 객체가 없다면(_equals()가 false_) 해당 entry를 LinkedList에 추가한다.
 
 - **HashTable에 get 메서드로 객체를 조회하는 경우**
   1. 값이 같은 객체가 있다면 (_equals()가 true_) 그 객체를 리턴한다.
@@ -284,6 +285,7 @@ public int hashCode() {
 ---
 
 ### 출처
+
 [Hash Table](https://better-dev.netlify.app/java/2020/01/03/hashtable/)
 
 [[IT 기술면접 준비자료] 해시(Hash)와 해시충돌(Hash Collision)](https://preamtree.tistory.com/20)
