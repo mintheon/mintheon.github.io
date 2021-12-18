@@ -7,7 +7,7 @@ categories: devlog
 tags: algorithm cs 글또
 ---
 
-![New Algorithm Developed to Better Utilise the Power of Solar Panels | The  Renewable Energy Hub](https://tva1.sinaimg.cn/large/008i3skNgy1gxilmsmngyj31hc0f9n5t.jpg)
+![New Algorithm Developed to Better Utilise the Power of Solar Panels The  Renewable Energy Hub](https://tva1.sinaimg.cn/large/008i3skNgy1gxilmsmngyj31hc0f9n5t.jpg)
 
 # 문자열 검색이란
 
