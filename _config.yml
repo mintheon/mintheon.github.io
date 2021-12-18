@@ -130,3 +130,5 @@ compress_html:
 
 sass:
   style:             compressed
+
+future:              true
