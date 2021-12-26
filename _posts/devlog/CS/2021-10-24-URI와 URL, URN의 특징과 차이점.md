@@ -72,6 +72,13 @@ tags: 글또 cs
 
 실제로 해당 사이트에는 company/location이라는 파일은 없다. 실제로 Controller에서 company/location으로 정의된 메서드를 호출할것이다. **_이렇게 구분자(Identifier)로 보는것이 `URI`_**이다.
 
+![URLURI](https://www.charlezz.com/wordpress/wp-content/uploads/2021/03/www.charlezz.com-uri-url-uri-vs-url-768x240.png)
+
+두 주소는 모두 index.html을 가리키고 있다.
+
+첫번째 주소는 웹서버의 실제 파일 위치를 나타내는 주소이므로 URI이면서 URL이다.
+두번째 주소는 실제로 index라는 파일이 웹서버에 존재하지 않으므로 URL은 아니다. 하지만 서버 내부에서 이를 처리하여 결국 index.html을 가리키기 때문에 URI라고 볼 수 있다.
+
 기존에는 해당 리소스의 위치를 통해 불러왔기 때문에 `URL`이라는 단어를 훨씬 많이 사용했던 것이다. 즉, **_`URL`은 해당 데이터의 위치를 불러오고 `URI`는 해당 데이터의 구별자를 통해 데이터를 불러온다._**
 
 <br/>
