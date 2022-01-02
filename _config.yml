@@ -30,10 +30,10 @@ image:               ''
 color:               '#1e3241'
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
-font_heading:        "'Nanum Gothic', 'IBM Plex Sans KR', 'Noto Sans KR', 'Sans-serif'"
+font_heading:        "'Gowun Dodum', 'IBM Plex Sans KR', 'Noto Sans KR', 'Sans-serif'"
 
 # The text font. Expects a string that is a valid CSS font-family value.
-font:                "'Nanum Gothic', 'IBM Plex Sans KR', 'Noto Sans KR', 'Sans-serif'"
+font:                "'Gowun Dodum', 'IBM Plex Sans KR', 'Noto Sans KR', 'Sans-serif'"
 
 # The string encoding what fonts to fetch from Google Fonts.
 # See: https://qwtel.com/hydejack/docs/configuration/
