@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Effective Java 뽀개기] 01. 생성자 대신 정적 팩터리 메서드를 고려하라
+title: "[Effective Java 뽀개기] 01. 생성자 대신 정적 팩터리 메서드를 고려하라"
 subtitle: 'java'
 date: 2022-09-04 21:22:50
 categories: devlog

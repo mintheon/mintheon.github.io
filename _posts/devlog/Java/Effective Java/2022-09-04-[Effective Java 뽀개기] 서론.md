@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Effective Java 뽀개기] 서론
+title: "[Effective Java 뽀개기] 서론"
 subtitle: 'java'
 date: 2022-09-04 21:22:50
 categories: devlog

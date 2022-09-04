@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Effective Java 뽀개기] 03. private 생성자나 열거 타입으로 싱글턴임을 보증하라
+title: "[Effective Java 뽀개기] 03. private 생성자나 열거 타입으로 싱글턴임을 보증하라"
 subtitle: 'java'
 date: 2022-09-04 21:22:50
 categories: devlog
